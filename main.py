@@ -173,6 +173,9 @@ def analyse_audio_guitar():
 # envelope
 # transient
 #https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html
+# https://ar5iv.labs.arxiv.org/html/1306.2859
+#https://www.dafx.de/paper-archive/2000/pdf/Caroline_Traube.pdf
+# https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S3_Timbre.html
 # guitar plucking position matters because naer the bridge the higher harmonics are louder and towards the center, the fundamental is higher
 # donc CL plutot le clavecin avec position ou on frappe 
 
