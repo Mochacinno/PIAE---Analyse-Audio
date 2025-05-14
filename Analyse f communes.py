@@ -33,7 +33,7 @@ def trouve_pics(audio, sr, tolerance_hz=5):
     return freq_peaks
 
 # --- Imports des audios ---
-fichier = "domisol4.wav"
+fichier = "Audio_HD/domisol4.wav"
 nb_notes = int(input("Nombre de notes dans l'accord :"))
 
 audio, sr = librosa.load(fichier)
@@ -94,9 +94,9 @@ ax.plot(freqs, spectre,label=fichier, color='black')
 # --- Harmoniques ---
 for i, (nom, accord) in enumerate(dico_accords.items()):
     color = colors[i]
-    ax.axvline(x=accord[0], color=color, linestyle='--', alpha=1,label=nom)
+    ax.axvline(x=accord[0], color=color, linestyle='--', alpha=0.2,label=nom)
     for freq in accord[1:] : 
-        ax.axvline(x=freq, color=color, linestyle='--', alpha=1)
+        ax.axvline(x=freq, color=color, linestyle='--', alpha=0.2)
 
 # --- Pics en commun ---        
 for pic in pics_en_commun : 
