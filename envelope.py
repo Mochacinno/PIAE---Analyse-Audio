@@ -30,7 +30,7 @@ def prepare_audio(file_name, start_time, end_time, sr):
 #y_f4 = prepare_audio("Audio_HD/F4.wav", 1, 7) #F4 2.21e4, 0 ; 2.32 0.036 ; 3.72 0.0068 ; 11.6 0.0021 ; 11.8 0
 # y_f4_2 = prepare_audio("Audio_HD/F4.wav", 8, 16) #Another F4 2.14e5 0 ; 2.15 0.036 ; 2.3 0.0064 ; 3.31  0.0019 ; 3.37 0
 # y_c2 = prepare_audio("Audio_HD/C2.wav", 0, 10) #C2 3.89e4 0 ; 4.06 0.0624 ; 5.13 0.0292 ; 21.5 0.00276
-# y_c6 = prepare_audio("Audio_HD/C6.wav", 1, 7) #C6 4.14e4 0; 4.45e4 0.019 ; 5.24e4 0.0016 ; 15.2 0
+y_c6 = prepare_audio("Audio_HD/C6.wav", 1, 7) #C6 4.14e4 0; 4.45e4 0.019 ; 5.24e4 0.0016 ; 15.2 0
 # y_g2 = prepare_audio("Audio/Guitar.wav", 30, 37) #Guitar 2.516e5 0; 2.52 0.682; 2.68 0.18; 3.45 0.09 3.49 0
 # # guitar 2 (higher in pitch) 3.87e5 0; 3.88 0.79; 3.99 0.114; 5.03 0.026; 5.05 0
 
